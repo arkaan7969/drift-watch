@@ -34,18 +34,15 @@ cd drift-watch
    ```
 Install dependencies
 ```bash
-Copy code
 pip install -r requirements.txt
   ```
 Run the main system
 ```bash
-Copy code
 python run_canaries.py
   ```
 
 🧩 Project Structure
 ```bash
-Copy code
 configs/               # Model and test configuration files
 compare_canaries.py    # Drift comparison logic
 calibrate_canaries.py  # Recalibration and healing module
@@ -57,6 +54,7 @@ test_tinyllama.py      # Example model test harness
   ```
 
 🧰 Built With
+
 Python 3.11+ — Core programming language
 
 PyTorch — Model fine-tuning and inference
@@ -70,29 +68,34 @@ FastAPI — Optional API endpoints for live monitoring
 Docker — Containerized deployment
 
 🧪 Experimental Extensions
+
 Adversarial drift scenarios for robustness benchmarking
 
 Self-healing loop for automated rebalancing
 
 Audit logs for model behavior tracking over time
 
+
 🖥️ Run via Docker
+
 Using Docker Compose (Recommended)
 ```bash
-Copy code
 docker compose up
   ```
 Using Docker Directly
 ```bash
-Copy code
 docker build -t drift-watch.app .
 docker run -p 8080:8080 drift-watch.app
 ```
+
+
 🧭 Research Focus
+
 Drift Watch explores AI resilience, autonomy, and integrity verification through continuous evaluation of distributed canary models.
 It’s an experimental framework for future trustworthy AI architectures.
 
 📬 Author
+
 Arkaan Sheikh
 Founder of Audena | AI & Cybersecurity Researcher
 GitHub
