@@ -1,0 +1,8 @@
+{
+  "id": "canary_2",
+  "model_repo": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "temperature": 0.62,
+  "top_p": 0.89,
+  "seed": 912605951,
+  "max_new_tokens": 80
+}
